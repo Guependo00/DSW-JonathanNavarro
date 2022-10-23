@@ -1,0 +1,39 @@
+header{
+    background: #8FBDD3;
+}
+nav{
+    background:#f3f1f0;
+}
+section{
+    background: #dad3ce;
+    grid-column:1/4;
+}
+aside{
+    background: #c0bbb9;
+    grid-column:4/5;
+}
+footer{
+    background: #e0e6eb;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content-foo p{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #1c6ea4;
+
+.footer-social{
+    color: #fff;
+    font-size: 100%;
+    padding: 2%;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px outset #BE8C63;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 #A97155,4px 4px 0 #A97155;
